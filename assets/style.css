@@ -1,0 +1,53 @@
+.main-menu-bg{
+    background: #253949;
+    height: 70px;
+}
+.menu {
+    background-color: #253949;
+    height: 70px;
+    box-sizing: border-box;
+    display: block;
+
+}
+.menu .menu-list {
+    float: left;
+    height: 70px;
+    position: relative;
+}
+.menu .menu-list > a {
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    color: #bbb;
+    text-transform: uppercase;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 27px;
+    padding-top: 27px;
+}
+.menu-dropdown {
+    background-color: red;
+    width: 200px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    display: none;
+
+}
+.menu-dropdown li a {
+    display: block;
+    padding: 7px 12px;
+    color: black;
+    font-size: 14px;
+}
+.menu-list:hover .menu-dropdown {
+    display: block;
+}
+.tr_logo_style {
+    margin-left: 20px;
+}
+.smllogo {
+    position: absolute;
+    z-index: 999999;
+}
